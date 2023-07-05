@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Responsive Card Layout</title>
+<style>
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid yellowgreen;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+}
+
+.card-text {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<div class="card-container">
+  <div class="card">
+    <h2 class="card-title">Indian Flag</h2>
+    <img class="card-image" src="https://wallpapers.com/images/featured/indian-flag-yqfmermanpgsw0jm.jpg" alt="Image">
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at maiores. Quibusdam in quasi eos placeat at, obcaecati vitae expedita enim nostrum optio mollitia beatae voluptate ex sunt perspiciatis omnis iure, vero deleniti? Ipsam quaerat labore eius ad dignissimos? Non dolorem eveniet ullam, dolor soluta laborum libero incidunt, fuga, laboriosam cumque distinctio odio dolores perspiciatis corrupti autem vitae obcaecati? Molestiae velit aliquam obcaecati, natus excepturi maxime expedita? Quas quis ab labore quam beatae, nisi, eaque sequi, laudantium corrupti exercitationem cupiditate magni obcaecati necessitatibus. Quis laborum a illo eum magni consequatur officiis molestias tempore. Nostrum explicabo
+       ab reprehenderit tempora recusandae rerum!</p>
+  </div>
+  <div class="card">
+    <h2 class="card-title">American Flag</h2>
+    <img class="card-image" src="https://m.media-amazon.com/images/I/71Ke2KajxeL._AC_SL1432_.jpg" alt="Image">
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At cum officia odio, repellendus nobis eligendi ut reiciendis iure rem quo aspernatur. Iste, quam non error repudiandae possimus iusto saepe fugit pariatur accusamus quis mollitia atque? Magni eveniet ad nesciunt? Nam laborum quaerat placeat a nobis fugit ab soluta tempora. Sapiente reprehenderit, voluptas est eius deleniti id fugiat expedita enim repellat, minima, ratione natus qui itaque voluptatibus facilis earum beatae vitae illo. Inventore ducimus id explicabo aliquam quidem accusamus quasi? Debitis quasi aperiam nemo natus est? Necessitatibus praesentium, error ipsum beatae accusamus quis eos eligendi, aliquid voluptatibus neque possimus ipsa dolorem.</p>
+  </div>
+  <div class="card">
+    <h2 class="card-title">Australian Flag</h2>
+    <img class="card-image" src="https://media.istockphoto.com/id/1148525480/photo/waving-australia-flag-in-the-air.jpg?s=170667a&w=0&k=20&c=XxPcgm9-qqh8nz_z7TdicYf1_aZsqZRzjnX_cFXRkQ4=" alt="Image">
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, excepturi dolor illo vitae similique iste optio, ducimus nam amet totam aliquid, in eum voluptatibus exercitationem? Officia minima reprehenderit unde ab fuga. Vel, natus facilis debitis velit harum distinctio aspernatur repellat fugiat! Odit necessitatibus neque possimus ipsum qui voluptates aspernatur, molestias blanditiis fugiat magnam dolor nobis consequuntur exercitationem beatae illum quos distinctio ipsa, perferendis iure eaque esse? Voluptate minima quia eaque odio molestiae similique, aspernatur nesciunt dolore adipisci ducimus harum amet consequatur, omnis reprehenderit dolores deleniti sunt reiciendis ab, vel beatae. Similique harum ad velit recusandae voluptatem in, cumque animi placeat.</p>
+  </div>
+</div>
+</body>
+</html>
